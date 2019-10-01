@@ -7,6 +7,13 @@ typedef struct _point
 	int x,y;
 } point;
 
+void swap(float a, float b)
+{
+	float temp = a;
+	a = b;
+	b = temp;
+}
+
 float min(float a, float b)
 {
 	if(a<b)
