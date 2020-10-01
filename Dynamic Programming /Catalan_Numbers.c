@@ -3,6 +3,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+void swap(int a, int b)
+{
+	int temp = a;
+	a = b;
+	b = temp;
+	// Annual October wala PR which has absolute Zero impact. 
+}
+
 void main()
 {
 	int n,i;
